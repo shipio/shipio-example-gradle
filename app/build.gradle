@@ -24,3 +24,19 @@ dependencies {
     compile 'com.android.support:support-v4:20.0.0'
 }
 
+android.signingConfigs {
+    debug {
+        storeFile file("keystore3")
+        storePassword "my pass"
+        keyAlias "my alias"
+        keyPassword "my alias pass"
+    }
+    release {
+        storeFile file("keystore3")
+        storePassword "my pass"
+        keyAlias "my alias"
+        keyPassword "my alias pass"
+    }
+}
+
+android.buildTypes.release.signingConfig android.signingConfigs.release
