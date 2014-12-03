@@ -11,7 +11,7 @@ public class ItemDetailActivityTest extends ActivityInstrumentationTestCase2<Ite
     }
 
     public void testOnCreate() throws Exception {
-        assertEquals("fake test failure", "expected", "actual");
+        assertEquals("idempotent", "expected", "expected");
     }
 
     public void testUI() throws Exception {
@@ -21,8 +21,6 @@ public class ItemDetailActivityTest extends ActivityInstrumentationTestCase2<Ite
                 mActivity.findViewById(R.id.item_detail).requestFocus();
             }
         });
-
-        Thread.sleep(5000);
     }
 
     @Override protected void setUp() throws Exception {
