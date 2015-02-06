@@ -18,3 +18,8 @@ allprojects {
     }
 }
 
+task showEnv << {
+   println "SHIPIO: " + System.getenv("SHIPIO")
+   println "CI: " + System.getenv("CI")
+}
+
