@@ -18,4 +18,4 @@ allprojects {
     }
 }
 
-task OnSubGreen
+task  OnSubGreen
