@@ -5,10 +5,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.14.1'
-
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
+        classpath 'com.android.tools.build:gradle:1.3.1'
     }
 }
 
@@ -22,4 +19,38 @@ task showEnv << {
    println "SHIPIO: " + System.getenv("SHIPIO")
    println "CI: " + System.getenv("CI")
 }
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "20.0.0"
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:19.0.0'
+}
+
+android {
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 19
+        versionCode 2
+        versionName "1.0"
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'app/src/main/AndroidManifest.xml'
+            res.srcDirs = ['app/src/main/res']
+            java.srcDirs = ['app/src']
+            resources.srcDirs = ['app/src']
+            aidl.srcDirs = ['app/src']
+            renderscript.srcDirs = ['app/src']
+            assets.srcDirs = ['assets']
+        }
+    }
+}
+
+
 

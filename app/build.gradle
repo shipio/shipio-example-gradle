@@ -5,7 +5,7 @@ android {
     buildToolsVersion "19.1.0"
 
     defaultConfig {
-        applicationId "com.example.sandeep.test2"
+        applicationId "com.ship.sandeep.test2"
         minSdkVersion 15
         targetSdkVersion 20
         versionCode 1
