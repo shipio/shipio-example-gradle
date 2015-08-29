@@ -1,4 +1,4 @@
-package com.example.sandeep.test2;
+package com.ship.sandeep.test2;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 
-import com.example.sandeep.test2.dummy.DummyContent;
+import com.ship.sandeep.test2.dummy.DummyContent;
 
 /**
  * A list fragment representing a list of Items. This fragment

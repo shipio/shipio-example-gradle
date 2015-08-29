@@ -1,4 +1,4 @@
-package com.example.sandeep.test2.dummy;
+package com.ship.sandeep.test2.dummy;
 
 import java.util.ArrayList;
 import java.util.HashMap;

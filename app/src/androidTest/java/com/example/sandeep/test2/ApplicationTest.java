@@ -1,4 +1,4 @@
-package com.example.sandeep.test2;
+package com.ship.sandeep.test2;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

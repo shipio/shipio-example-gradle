@@ -1,4 +1,4 @@
-package com.example.sandeep.test2;
+package com.ship.sandeep.test2;
 
 import android.os.Bundle;
 import android.app.Fragment;
@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 
-import com.example.sandeep.test2.dummy.DummyContent;
+import com.ship.sandeep.test2.dummy.DummyContent;
 
 /**
  * A fragment representing a single Item detail screen.
