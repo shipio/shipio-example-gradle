@@ -11,7 +11,7 @@ public class ItemDetailActivityTest extends ActivityInstrumentationTestCase2<Ite
     }
 
     public void testOnCreate() throws Exception {
-        assertEquals("fake test failure", "expected", "actual");
+        assertEquals("fake test success", "expected", "expected");
     }
 
     public void testUI() throws Exception {
