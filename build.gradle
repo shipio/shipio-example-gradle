@@ -38,6 +38,16 @@ android {
         versionName "1.0"
     }
 
+    productFlavors {
+            free {
+                versionCode 20
+            }
+
+            pro {
+                versionCode 20
+            }
+        }
+
     sourceSets {
         main {
             manifest.srcFile 'app/src/main/AndroidManifest.xml'
